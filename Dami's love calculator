@@ -1,0 +1,26 @@
+print("Welcome to Damilola's LOVE Calculator")
+name1 = input("What is your name")
+name2 = input("What is your name")
+name11 = name1.lower()
+name22 = name2.lower()
+new_name = name11 + name22
+T = int(new_name.count("t"))
+R = int(new_name.count("r"))
+U = int(new_name.count("u"))
+E = int(new_name.count("e"))
+L = int(new_name.count("l"))
+O = int(new_name.count("o"))
+V = int(new_name.count("v"))
+
+new1 = T + R + U + E
+new2 = L + O + V + E
+
+new = str(new1) + str(new2)
+neww = int(new)
+
+if neww > 90:
+    print(f"your score is {new} and you go together like coke and mentos")
+elif int(40) < neww < int(50):
+    print(f"your score is {new} and you are alright together")
+else:
+    print(f"your score is {new} and you two should maintain distance")
